@@ -43,7 +43,7 @@ var orm = {
     });
   },
   
-  // function to add a new row to the table
+ 
   insertOne: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
     
