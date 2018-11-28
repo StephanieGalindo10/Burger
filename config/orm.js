@@ -34,6 +34,7 @@ function objToSql(ob) {
 var orm = {
   // function to select all values in the table
   selectAll: function(table, cb) {
+    console.log("in select all");
     var queryString = "SELECT * FROM " + table + ";";
     connection.query(queryString, function(err, result) {
       if (err) {
