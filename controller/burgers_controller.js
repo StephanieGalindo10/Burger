@@ -16,7 +16,7 @@ router.get("/", function(req, res) {
     res.render("index", hbsObject);
   });
 });
-
+///router.post
 
 router.post("/api/burgers", function(req, res) {
   burger.insertOne(["burger_name", "devoured"], [
@@ -26,6 +26,8 @@ router.post("/api/burgers", function(req, res) {
   });
 });
 
+
+///router.put
 router.put("/api/burgers/:id", function(req, res) {
   var condition = "id = " + req.params.id;
   burger.updateOne({
@@ -38,5 +40,7 @@ router.put("/api/burgers/:id", function(req, res) {
     }
   });
 });
+
+
 
 module.exports = router;
