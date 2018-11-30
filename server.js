@@ -10,7 +10,7 @@ app.listen(process.env.PORT || 8080, function(){
 
 var bodyParser = require("body-parser");
 
-///var port will be 3000(Local Host)///
+///var port will be 3000(Local Host)///heroku login
 var PORT = process.env.PORT || 3000;
 
 var app = express();
