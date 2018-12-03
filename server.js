@@ -28,11 +28,6 @@ app.set("view engine", "handlebars");
 var routes = require("./controller/burgers_controller.js");
 app.use(routes);
 
-
-
-app.listen(PORT, function() {
-  console.log("App now listening at localhost:" + PORT);
-});
-app.listen(PORT || 8080, function(){
+app.listen(PORT,function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
