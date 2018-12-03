@@ -24,4 +24,4 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../../Supplemental/MySQLH
 
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
-* Your app will store every burger in a database, whether devoured or not.npm i
+* Your app will store every burger in a database, whether devoured or not.npm i;
