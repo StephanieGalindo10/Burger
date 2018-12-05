@@ -9,8 +9,8 @@ body ,html {
 }
 .header {
     height: 250px;
-    background-color: red;
-    color: yellow;
+    background-image: url(http://chicken-confidential.co/wp-content/uploads/2017/02/menu-new.jpg);
+    color: red
     display:flex;
     justify-content: center;
     align-items: center;
