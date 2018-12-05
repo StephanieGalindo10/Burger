@@ -1,17 +1,17 @@
-var express = require("express");
-const app = express();
+let express = require("express");
+var PORT = process.env.PORT || 3000;
+let app = express();
 
 var bodyParser = require("body-parser");
 
-var PORT = process.env.PORT || 3000;
 
 
 // serve static content for the app and set up body-parser
 app.use(express.static("public"));
-app.use(bodyParser.urlencoded({
-  extended: false
+app.use(express.urlencoded({
+  extended: true
 }));
-app.use(bodyParser.json());
+app.use(express.json());
 
 // set up Handlebars
 var exphbs = require("express-handlebars");
@@ -22,9 +22,10 @@ app.engine("handlebars", exphbs({
 app.set("view engine", "handlebars");
 
 
-var routes = require("./controller/burgers_controller.js");
+let routes = require("./controller/burgers_controller.js");
+
 app.use(routes);
 
-app.listen(PORT,function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+app.listen(PORT, function() {
+  console.log("Listening on port:%s", PORT);
 });
