@@ -5,9 +5,10 @@ var orm = require("../config/orm.js");
 
 var burger = {
   selectAll: function(cb) {
+    console.log ("select all");
     orm.selectAll("burgers", function(res) {
       cb(res);
-    });
+   });
   },
 
   //insertOne

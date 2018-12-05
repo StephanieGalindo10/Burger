@@ -10,13 +10,16 @@ var burger = require("../models/burger.js");
 router.get("/", function(req, res) {
  
   burger.selectAll(function(data) {
-    console.log(data, "result from sel all");
-    var hbsObject = {
-      burgers: data
+  console.log(data, "result from sel all");
+   var hbsObject = {
+     burgers: data
     };
     res.render("index", hbsObject);
+ 
   });
+ 
 });
+
 ///router.post
 
 router.post("/api/burgers", function(req, res) {
