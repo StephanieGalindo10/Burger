@@ -8,7 +8,6 @@ const connection = mysql.createConnection({
   database: 'cv8ao5tls8ndogm4',
 });
 
-
 connection.connect((err) => {
   if (err) {
     console.error(`error connecting: ${err.stack}`);
