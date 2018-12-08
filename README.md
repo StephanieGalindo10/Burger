@@ -14,5 +14,11 @@ Created
 A burger application app: Theme Japanese American Resturant 
 created using server.js and Heroku Link 
 
-
+Application that was used 
+BootStrap 
+HTML/CSS 
+Node.js 
+Express.js
+NPMPackages 
+MySQL
 
