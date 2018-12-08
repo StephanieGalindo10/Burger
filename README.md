@@ -1,6 +1,8 @@
 # Burger
 Burger Time- Node Express Handlebars
 
+Please Click on link to view what is on the menu today 
+
 live link https://floating-beach-89531.herokuapp.com/
 
 
