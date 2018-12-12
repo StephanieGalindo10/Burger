@@ -1,6 +1,9 @@
 # Burger
 Burger Time- Node Express Handlebars
 
+Please Click on link to view what is on the menu today 
+
+
 live link https://floating-beach-89531.herokuapp.com/
 
 ![alt text]()
@@ -11,18 +14,34 @@ live link https://floating-beach-89531.herokuapp.com/
 
 In this assignment, I create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). 
 
+
 Created A burger application app: Theme Japanese American Resturant created using server.js and Heroku Link
 
 Application that was used
 
  BootStrap 
+=======
+Created 
+A burger application app: Theme Japanese American Resturant 
+created using server.js and Heroku Link 
 
- HTML/CSS
+Application that was used 
 
-  Node.js 
+BootStrap 
 
-  Express.js 
+HTML/CSS 
 
-  NPMPackages MySQL
+Node.js 
+
+Express.js
+
+NPMPackages 
+
+MySQL
+
+Heroku
+
+
+ 
 
   
